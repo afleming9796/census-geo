@@ -24,3 +24,5 @@ cg_result = cg.coordinates(x=longitude, y=latitude)
 
 #pull block group from cg_result
 block_group = cg_result["2020 Census Blocks"][0]["BLOCK"]
+
+print(block_group)
